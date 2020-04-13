@@ -70,7 +70,6 @@ public class CheckBoxDemo extends TestBase{
 			System.out.println("Check All Button display : "+checkAllBtn.isDisplayed());
 			checkAllBtn.click();
 			System.out.println("Check All Button clicked successfully");
-			System.out.println("Check All Button clicked successfully");
 		}
 		
 		System.out.println("UnCheck All Button display : "+uncheckAllBtn.isDisplayed());

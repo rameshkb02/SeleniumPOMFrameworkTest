@@ -25,16 +25,16 @@ public class RadioButtonDemo extends TestBase{
 	WebElement grbDemo;
 	
 	@FindBy(xpath="//input[@value='Female' and @name='gender']")
-	WebElement enterValA;
+	WebElement femleRB;
 	
-	@FindBy(xpath="//input[@id='sum2']")
-	WebElement enterValB;
+	@FindBy(xpath="//input[@value='15 - 50' and @name='ageGroup']")
+	WebElement ageGrp15To50;
 	
-	@FindBy(xpath="//button[contains(text(),'Get Total')]")
-	WebElement getTotalBtn;
+	@FindBy(xpath="//button[contains(text(),'Get values')]")
+	WebElement getValuesBtn;
 	
-	@FindBy(xpath="//span[@id='displayvalue']")
-	WebElement yourTotalValue;
+	@FindBy(xpath="//p[@class='groupradiobutton']")
+	WebElement displayedValues;
 
 	// Initializing the Page Objects:
 	public RadioButtonDemo() {
@@ -43,25 +43,31 @@ public class RadioButtonDemo extends TestBase{
 	
 //Actions:
 
-	public String simpleFormPageTitle() {
+	public String radioButtonPageTitle() {
 		return driver.getTitle();
 	}
 	
-	public void singleInput(String message)
+	public void singleRB() throws InterruptedException
 	{
-		//enterMessage.sendKeys(message);
-		//showMessageBtn.click();
-		//String yourMsg = yourMessageTxt.getText();
-		//System.out.println("Your message text is : "+ yourMsg);
-	}
+		Boolean flag = radioBtnDiv.isDisplayed();
+		if (flag==true)
+		{
+			maleRBOption.click();
+			getCheckedBtn.click();
+			Thread.sleep(2000);
+			System.out.println("Get Value after click Button: " +rbMsgTxt.getText());
+		}
+}
 	
-	public void twoInputAdd(String val1, String val2)
-	{
-		enterValA.sendKeys(val1);
-		enterValB.sendKeys(val2);
-		getTotalBtn.click();
-		String totalValue = yourTotalValue.getText();
-		System.out.println("Your total value is : "+ totalValue);
+	public void groupRB() throws InterruptedException	{
+		Boolean flag1 = grbDemo.isDisplayed();
+		if (flag1==true)
+		{
+			femleRB.click();
+			ageGrp15To50.click();
+			Thread.sleep(2000);
+			System.out.println("Get Value after click Button: " +displayedValues.getAttribute(""));
+		}
 	}
 
 }

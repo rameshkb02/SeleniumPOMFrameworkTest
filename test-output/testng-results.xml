@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="123589" started-at="2020-03-21T14:00:02 IST" finished-at="2020-03-21T14:02:06 IST">
+  <suite name="Default suite" duration-ms="15704" started-at="2020-04-13T12:00:55 IST" finished-at="2020-04-13T12:01:10 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="123589" started-at="2020-03-21T14:00:02 IST" finished-at="2020-03-21T14:02:06 IST">
-      <class name="com.sel.qa.testcases.DemoHomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="setUp" is-config="true" duration-ms="40101" started-at="2020-03-21T14:00:02 IST" finished-at="2020-03-21T14:00:42 IST">
+    <test name="Default test" duration-ms="15704" started-at="2020-04-13T12:00:55 IST" finished-at="2020-04-13T12:01:10 IST">
+      <class name="com.sel.qa.testcases.RadioButtonPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sel.qa.testcases.RadioButtonPageTest@53f65459]" name="setUp" is-config="true" duration-ms="12608" started-at="2020-04-13T12:00:55 IST" finished-at="2020-04-13T12:01:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="demoHomePageTitleTest()[pri:1, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="demoHomePageTitleTest" duration-ms="21" started-at="2020-03-21T14:00:42 IST" finished-at="2020-03-21T14:00:42 IST">
+        <test-method status="PASS" signature="groupRBTest()[pri:3, instance:com.sel.qa.testcases.RadioButtonPageTest@53f65459]" name="groupRBTest" duration-ms="2365" started-at="2020-04-13T12:01:07 IST" finished-at="2020-04-13T12:01:10 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="tearDown" is-config="true" duration-ms="16539" started-at="2020-03-21T14:00:42 IST" finished-at="2020-03-21T14:00:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="setUp" is-config="true" duration-ms="13374" started-at="2020-03-21T14:00:59 IST" finished-at="2020-03-21T14:01:12 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selEasyImageTest()[pri:2, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="selEasyImageTest" duration-ms="277" started-at="2020-03-21T14:01:12 IST" finished-at="2020-03-21T14:01:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selEasyImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="tearDown" is-config="true" duration-ms="8633" started-at="2020-03-21T14:01:13 IST" finished-at="2020-03-21T14:01:21 IST">
+        </test-method> <!-- groupRBTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sel.qa.testcases.RadioButtonPageTest@53f65459]" name="tearDown" is-config="true" duration-ms="656" started-at="2020-04-13T12:01:10 IST" finished-at="2020-04-13T12:01:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="setUp" is-config="true" duration-ms="10807" started-at="2020-03-21T14:01:21 IST" finished-at="2020-03-21T14:01:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="navigateSimpleFormTest()[pri:3, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="navigateSimpleFormTest" duration-ms="2699" started-at="2020-03-21T14:01:32 IST" finished-at="2020-03-21T14:01:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateSimpleFormTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="tearDown" is-config="true" duration-ms="7570" started-at="2020-03-21T14:01:35 IST" finished-at="2020-03-21T14:01:42 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="setUp" is-config="true" duration-ms="14506" started-at="2020-03-21T14:01:42 IST" finished-at="2020-03-21T14:01:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateInputFormsDD()[pri:3, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="validateInputFormsDD" duration-ms="75" started-at="2020-03-21T14:01:57 IST" finished-at="2020-03-21T14:01:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateInputFormsDD -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sel.qa.testcases.DemoHomePageTest@53f65459]" name="tearDown" is-config="true" duration-ms="8906" started-at="2020-03-21T14:01:57 IST" finished-at="2020-03-21T14:02:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sel.qa.testcases.DemoHomePageTest -->
+      </class> <!-- com.sel.qa.testcases.RadioButtonPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

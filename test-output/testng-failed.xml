@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sel.qa.testcases.DemoHomePageTest">
+      <class name="com.sel.qa.testcases.RadioButtonPageTest">
         <methods>
-          <include name="demoHomePageTitleTest"/>
-          <include name="selEasyImageTest"/>
+          <include name="groupRBTest"/>
           <include name="tearDown"/>
-          <include name="navigateSimpleFormTest"/>
           <include name="setUp"/>
-          <include name="validateInputFormsDD"/>
         </methods>
-      </class> <!-- com.sel.qa.testcases.DemoHomePageTest -->
+      </class> <!-- com.sel.qa.testcases.RadioButtonPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
